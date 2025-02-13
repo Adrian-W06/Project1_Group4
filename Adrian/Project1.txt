@@ -1,0 +1,5 @@
+energy_data_raw_df["greenhouse_gas_emissions"]=energy_data_raw_df["greenhouse_gas_emissions"].apply(lambda x: f"{x} MtCO₂e")
+energy_data_raw_df["biofuel_consumption"]=energy_data_raw_df["biofuel_consumption"].apply(lambda x:f"{x} TWh")
+energy_data_raw_df["electricity_demand"]=energy_data_raw_df["electricity_demand"].apply(lambda x:f"{x}TWh")
+energy_data_raw_df["electricity_generation"]=energy_data_raw_df["electricity_generation"].apply(lambda x:f"{x}TWh")
+energy_data_raw_df["fossil_fuel_consumption"]=energy_data_raw_df["fossil_fuel_consumption"].apply(lambda x:f"{x}TWh")
