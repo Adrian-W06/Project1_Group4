@@ -1,3 +1,1 @@
-weather_api_key="265135540842c373b6e3887ec9bf2d40"
-geoapify_key="6b5b122e8b4347b28ac4abe221ba5bde"
-eia_key="607e14aa67cd320316a863c199753889"
+
