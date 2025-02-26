@@ -7,6 +7,17 @@ Do Forms of energy consumption have a direct effect on greenhouse gas emissions 
 Does size of population have an effect on the output of greenhouse gas emissions and energy consumption in general?
 Fom data sets provided by the U.S Energy Information Administration: Opendata - U.S. Energy Information Administration (EIA). We will look for any trends in greenhouse emissions that coincide with yearly values of energy consumption.
 
+Project Data Collection:
+
+We will be utilizing Jupyter and VS code along with mods to isolate particular countries of interest which seems relevant to our questions posted. We will be importing data from Pandas library in order to isolate and organzie particular data that we intend to find. Such as; Country, Greenhouse Emissions, Fossil fuel Consumption, and Electricity Genereation.
+
+
+
+
+
+
+
+
 
 Analysis Group 4/Key points:
 -From the data provided,  China produces the largest amount of greenhouse gas emissions into the atmosphere.The data also shows us that China has the largest energy consumption out of any other country. 
