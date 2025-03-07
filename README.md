@@ -14,11 +14,6 @@ We will be utilizing Jupyter and VS code along with mods to isolate particular c
 
 
 
-
-
-
-
-
 Analysis Group 4/Key points:
 
    -From the data provided,  China produces the largest amount of greenhouse gas emissions into the atmosphere.The data also shows us that China has the largest energy consumption out of any other country. 
@@ -36,7 +31,7 @@ Analysis Group 4/Key points:
 -The United States hit an all-time low in all forms of energy consumption in 2020. COVID 19 epidemic.
 
 
-## Analyzing the Data in Python
+Analyzing the Data in Python:
 
 Before loading the dataset into Python, the following packages were installed/loaded:
 
@@ -51,14 +46,10 @@ from Adrian_config import eia_key
 from pathlib import Path
 import csv
 import os
-```
 
-
-
-### Inspecting the Data  
+Inspecting the Data  
 
 To find the energy consumption and CO2 emissions in China over the last 5 years the following data cleaning occurred:
-
 All missing values were dropped from data set
 Data was filtered by "primary_energy_consumption & greenhouse_gas_emissions, country & year
 Non-country columns were dropped from the dataset
@@ -114,37 +105,38 @@ We filtered and selected data from the existing data frame; we filtered values a
 -China's Energy Consumption and Emissions
 	-Leading Global Producer: China ranks as both the largest energy consumer and the largest emitter of greenhouse gases globally. With a rapidly expanding industrial sector, increasing energy demands, and rising urbanization, China's energy consumption has increased year-over-year.
 
-	-Direct Correlation: The data shows a direct correlation between rising energy consumption and escalating greenhouse gas emissions in China. As energy consumption increases (primarily through coal and natural gas), CO? emissions are directly impacted. The industrial sector's reliance on fossil fuels is a major contributing factor.
+-Direct Correlation: The data shows a direct correlation between rising energy consumption and escalating greenhouse gas emissions in China. As energy consumption increases (primarily through coal and natural gas), CO? emissions are directly impacted. The industrial sector's reliance on fossil fuels is a major contributing factor.
 
-	-Five-Year Growth: From 2018 to 2023, both energy consumption and CO? emissions in China saw a significant rise, following an upward trajectory linked to economic and industrial growth. This suggests that without a shift to greener technologies, China's emissions will likely continue to grow.
+-Five-Year Growth: From 2018 to 2023, both energy consumption and CO? emissions in China saw a significant rise, following an upward trajectory linked to economic and industrial growth. This suggests that without a shift to greener technologies, China's emissions will likely continue to grow.
 
 
 -United States' Emission Trends
 	-Declining Emissions Despite Increased Fossil Fuel Use: Interestingly, while fossil fuel consumption in the United States increased during the last five years, greenhouse gas emissions have declined. This could be attributed to a shift towards cleaner energy sources like natural gas, along with improvements in energy efficiency and renewable energy capacity.
 
-	-2020 Anomaly: In 2020, the United States experienced a dramatic drop in both fossil fuel consumption and emissions. This decline coincides with the COVID-19 pandemic, which led to a reduction in industrial activity, transportation, and overall energy demand. This anomaly suggests that external factors (like pandemics) can significantly influence energy use and emissions.
+-2020 Anomaly: In 2020, the United States experienced a dramatic drop in both fossil fuel consumption and emissions. This decline coincides with the COVID-19 pandemic, which led to a reduction in industrial activity, transportation, and overall energy demand. This anomaly suggests that external factors (like pandemics) can significantly influence energy use and emissions.
 
 
 -Brazil's Emission Patterns
 
-	-Trends Similar to the US: Brazil’s emissions trend over the last five years mirrors that of the U.S. with a gradual decrease in emissions, despite an increase in fossil fuel consumption. A closer look at Brazil’s energy mix shows increasing use of renewable energy sources like hydropower, wind, and solar, which could be contributing to reduced emissions even as fossil fuel consumption rises.
+-Trends Similar to the US: Brazilâ€™s emissions trend over the last five years mirrors that of the U.S. with a gradual decrease in emissions, despite an increase in fossil fuel consumption. A closer look at Brazilâ€™s energy mix shows increasing use of renewable energy sources like hydropower, wind, and solar, which could be contributing to reduced emissions even as fossil fuel consumption rises.
 
-	-Impact of 2020: Like the United States, Brazil saw a temporary dip in fossil fuel consumption in 2020, likely due to the global pandemic. However, the long-term trend points toward a gradual increase in energy consumption, particularly electricity generation, despite fluctuations in fossil fuel use.
+-Impact of 2020: Like the United States, Brazil saw a temporary dip in fossil fuel consumption in 2020, likely due to the global pandemic. However, the long-term trend points toward a gradual increase in energy consumption, particularly electricity generation, despite fluctuations in fossil fuel use.
 Fossil Fuel Consumption
 
 -Impact of 2020 on Fossil Fuel Use: 
 
-	-Both the United States and Brazil experienced sharp declines in fossil fuel consumption in 2020. This was largely due to the economic slowdown during the COVID-19 pandemic, which temporarily reduced industrial activity and transportation.
+-Both the United States and Brazil experienced sharp declines in fossil fuel consumption in 2020. This was largely due to the economic slowdown during the COVID-19 pandemic, which temporarily reduced industrial activity and transportation.
+
 China's Steady Increase: In contrast to the U.S. and Brazil, China saw a steady increase in fossil fuel consumption year-over-year, even in 2020, signaling its continued industrial growth and energy demands despite global trends.
 
 
 -Large vs. Small Energy Trend Analysis
 
-	-Larger Populations and Higher Energy Demand: Larger countries with bigger populations, such as the United States, China, and Russia, naturally demand more energy. However, their energy intensity (energy consumed per unit of GDP) and reliance on fossil fuels also play a critical role. While population size does have an effect, industrial activity and energy efficiency are also significant factors in determining a country’s total energy consumption and emissions.
+-Larger Populations and Higher Energy Demand: Larger countries with bigger populations, such as the United States, China, and Russia, naturally demand more energy. However, their energy intensity (energy consumed per unit of GDP) and reliance on fossil fuels also play a critical role. While population size does have an effect, industrial activity and energy efficiency are also significant factors in determining a countryâ€™s total energy consumption and emissions.
 
-	-Per Capita Consumption and Emissions: Smaller countries, like Slovenia and Croatia, tend to have lower energy consumption per capita and emissions, especially if they prioritize energy efficiency and renewable energy sources. However, countries with large industrial sectors or growing energy demands, like Nigeria and Indonesia, may show rising consumption and emissions despite their relatively lower population size.
+-Per Capita Consumption and Emissions: Smaller countries, like Slovenia and Croatia, tend to have lower energy consumption per capita and emissions, especially if they prioritize energy efficiency and renewable energy sources. However, countries with large industrial sectors or growing energy demands, like Nigeria and Indonesia, may show rising consumption and emissions despite their relatively lower population size.
 
-	-Industrialization vs. Population Size: Industrialized countries like the U.S. and Japan have high energy consumption and emissions per capita, regardless of population size. Meanwhile, countries with developing economies, like Nigeria and Indonesia, may have lower per capita consumption but are rapidly increasing their emissions due to industrialization and urbanization.
+-Industrialization vs. Population Size: Industrialized countries like the U.S. and Japan have high energy consumption and emissions per capita, regardless of population size. Meanwhile, countries with developing economies, like Nigeria and Indonesia, may have lower per capita consumption but are rapidly increasing their emissions due to industrialization and urbanization.
 
 Visualizations
 
@@ -158,10 +150,6 @@ This graph compares electricity generation across the years in both large and sm
 A line graph or bar chart showing fossil fuel consumption trends for both large and small countries. The graph will showcase the rise or fall in fossil fuel consumption in countries like the U.S., Brazil, China, and others, particularly during the COVID-19 year (2020).
  
 
-
-[- BACK TO TOP -](#correlation-between-energy-consumption-and-gas-emissions)
-
----
 
 ## SUMMARY 
 
@@ -192,19 +180,19 @@ The size of a country's population plays a significant role in its overall energ
 
 
 
-### Opportunities for future analysis:
+ Opportunities for future analysis:
 
 -Our findings can be used for the purposes of:
 
-	-Policy Making: Helps governments and organizations create policies for sustainable energy use.
+-Policy Making: Helps governments and organizations create policies for sustainable energy use.
 
-	-Climate Change Mitigation: Identifies opportunities to reduce emissions through renewable energy adoption.
+-Climate Change Mitigation: Identifies opportunities to reduce emissions through renewable energy adoption.
 
-	-Economic Analysis: Assesses how energy consumption trends impact economic development.
+-Economic Analysis: Assesses how energy consumption trends impact economic development.
 
-	-Corporate Strategy: Provides insights for businesses looking to optimize energy use and reduce carbon footprints.
+-Corporate Strategy: Provides insights for businesses looking to optimize energy use and reduce carbon footprints.
 
-	-Energy Efficiency Programs: Helps design programs to promote energy-saving initiatives.
+-Energy Efficiency Programs: Helps design programs to promote energy-saving initiatives.
 
 
 
